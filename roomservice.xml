@@ -35,6 +35,6 @@
     <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"         revision="android-13" />
 
     <!-- GApps -->
-    <project name="vendor_gapps"                                path="vendor/gapps"                     remote="mtg"            revision="tau" /
+    <project name="vendor_gapps"                                path="vendor/gapps"                     remote="mtg"            revision="tau" />
 
 </manifest>
