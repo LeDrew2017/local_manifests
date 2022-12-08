@@ -6,13 +6,13 @@
     <remote name="linux4"          fetch="https://github.com/Linux4"/>
 
     <!--Devices Trees-->
-    <project name="android_device_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="xtended-13" />
-    <project name="android_device_beyond1lte"           path="device/samsung/beyond1lte"        remote="source"         revision="xtended-13" />
-    <project name="android_device_beyond2lte"           path="device/samsung/beyond2lte"        remote="source"         revision="xtended-13" />
-    <project name="android_device_beyondx"              path="device/samsung/beyondx"           remote="source"         revision="xtended-13" />
-    <project name="android_device_d1"                   path="device/samsung/d1"                remote="source"         revision="xtended-13" />
-    <project name="android_device_d2s"                  path="device/samsung/d2s"               remote="source"         revision="xtended-13" />
-    <project name="android_device_d2x"                  path="device/samsung/d2x"               remote="source"         revision="xtended-13" />
+    <project name="android_device_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="cherish-13" />
+    <project name="android_device_beyond1lte"           path="device/samsung/beyond1lte"        remote="source"         revision="cherish-13" />
+    <project name="android_device_beyond2lte"           path="device/samsung/beyond2lte"        remote="source"         revision="cherish-13" />
+    <project name="android_device_beyondx"              path="device/samsung/beyondx"           remote="source"         revision="cherish-13" />
+    <project name="android_device_d1"                   path="device/samsung/d1"                remote="source"         revision="cherish-13" />
+    <project name="android_device_d2s"                  path="device/samsung/d2s"               remote="source"         revision="cherish-13" />
+    <project name="android_device_d2x"                  path="device/samsung/d2x"               remote="source"         revision="cherish-13" />
     <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"         revision="xtended-13" />
 
     <!--Vendors Trees-->
