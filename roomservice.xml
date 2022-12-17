@@ -4,6 +4,7 @@
     <!--Remotes-->
     <remote name="source"          fetch="https://github.com/LeDrew2017"/>
     <remote name="linux4"          fetch="https://github.com/Linux4"/>
+    <remote name="dependencies"    fetch="https://github.com/LineageOS"/>
 
     <!--Devices Trees-->
     <project name="android_device_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="evolution-13" />
@@ -29,7 +30,7 @@
     <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="linux4"         revision="lineage-20.0"   clone-depth="1" />
 
     <!-- Dependencies -->
-    <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"         revision="android-13" />
-    <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"         revision="android-13" />
+    <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="dependencies"         revision="lineage-20" />
+    <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="dependencies"         revision="lineage-20" />
 
 </manifest>
