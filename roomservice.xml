@@ -3,7 +3,6 @@
 
     <!--Remotes-->
     <remote name="source"          fetch="https://github.com/LeDrew2017"/>
-    <remote name="lineage20"       fetch="https://github.com/SealsPlayground"/>
     <remote name="cherish"         fetch="https://github.com/FreeRunner4ever"/>
 
     <!--Devices Trees-->
