@@ -14,13 +14,13 @@
     <project name="android_device_d1"                   path="device/samsung/d1"                remote="source"         revision="cherish-13" />
     <project name="android_device_d2s"                  path="device/samsung/d2s"               remote="source"         revision="cherish-13" />
     <project name="android_device_d2x"                  path="device/samsung/d2x"               remote="source"         revision="cherish-13" />
-    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="cherish"      revision="cherish-13" />
+    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="cherish"        revision="cherish-13" />
 
     <!--Vendors Trees-->
-    <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="lineage20"      revision="lineage-20" />
+    <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="source"         revision="lineage-20" />
 
     <!--Kernel Tree-->
-    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="lineage20"      revision="lineage-20" />
+    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"         revision="lineage-20" />
 
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"         revision="android-13" />
