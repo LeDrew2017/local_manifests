@@ -4,6 +4,7 @@
     <!--Remotes-->
     <remote name="source"          fetch="https://github.com/LeDrew2017"/>
     <remote name="banana"          fetch="https://github.com/FreeRunner4ever"/>
+    <remote name="kernel"          fetch="https://github.com/ExpressLuke"/>
 
     <!--Devices Trees-->
     <project name="android_device_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="banana-13" />
@@ -19,7 +20,7 @@
     <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="source"       revision="lineage-20" />
 
     <!--Kernel Tree-->
-    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"       revision="lineage-20" />
+    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="kernel"       revision="lineage-20" />
 
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"       revision="android-13" />
