@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-    <!--Remotes-->
-    <remote name="source"          fetch="https://github.com/LeDrew2017"/>
-    <remote name="lineage20"       fetch="https://github.com/SealsPlayground"/>
-    <remote name="kernel"          fetch="https://github.com/ExpressLuke"/>
-
     <!--Devices Trees-->
-    <project name="android_device_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="xtended-13" />
-    <project name="android_device_beyond1lte"           path="device/samsung/beyond1lte"        remote="source"         revision="xtended-13" />
-    <project name="android_device_beyond2lte"           path="device/samsung/beyond2lte"        remote="source"         revision="xtended-13" />
-    <project name="android_device_beyondx"              path="device/samsung/beyondx"           remote="source"         revision="xtended-13" />
-    <project name="android_device_d1"                   path="device/samsung/d1"                remote="source"         revision="xtended-13" />
-    <project name="android_device_d2s"                  path="device/samsung/d2s"               remote="source"         revision="xtended-13" />
-    <project name="android_device_d2x"                  path="device/samsung/d2x"               remote="source"         revision="xtended-13" />
-    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="lineage20"      revision="lineage-20" />
+	<project name="LeDrew2017/android_device_samsung_universal2100-common" path="device/samsung/universal2100-common" remote="github" revision="cherish" />
+    <project name="LeDrew2017/android_device_samsung_p3s" path="device/samsung/p3s" remote="github" revision="cherish" />
 
     <!--Vendors Trees-->
-    <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="lineage20"      revision="lineage-20" />
+    <project name="LeDrew2017/proprietary_vendor_samsung_universal2100-common" path="vendor/samsung/universal2100-common" remote="github" revision="lineage-20" />
+    <project name="LeDrew2017/proprietary_vendor_samsung_p3s" path="vendor/samsung/p3s" remote="github" revision="lineage-20" />
 
     <!--Kernel Tree-->
-    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="kernel"         revision="13.0" />
+    <project name="LeDrew2017/android_kernel_samsung_universal2100" path="kernel/samsung/universal2100" remote="github" revision="lineage-20" />
 
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"         revision="android-13" />
     <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"         revision="android-13" />
-
 </manifest>
