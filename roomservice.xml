@@ -3,8 +3,7 @@
 
     <!--Remotes-->
     <remote name="source"          fetch="https://github.com/LeDrew2017"/>
-    <remote name="banana"          fetch="https://github.com/FreeRunner4ever"/>
-    <remote name="kernel"          fetch="https://github.com/ExpressLuke"/>
+    <remote name="clang"           fetch="https://gitlab.com/hydra-kernels"/>
 
     <!--Devices Trees-->
     <project name="android_device_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="banana-13" />
@@ -14,15 +13,18 @@
     <project name="android_device_d1"                   path="device/samsung/d1"                remote="source"         revision="banana-13" />
     <project name="android_device_d2s"                  path="device/samsung/d2s"               remote="source"         revision="banana-13" />
     <project name="android_device_d2x"                  path="device/samsung/d2x"               remote="source"         revision="banana-13" />
-    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="banana"       revision="banana-13" />
+    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"       revision="banana-13" />
 
     <!--Vendors Trees-->
     <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="source"       revision="lineage-20" />
 
     <!--Kernel Tree-->
-    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="kernel"       revision="13.0" />
+    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"       revision="android-13" />
 
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"       revision="android-13" />
+    
+    <!-- Hydra-Clang -->
+    <project name="hyperx-clang"        path="prebuilts/clang/host/linux-x86/clang-hyperx-clang"        remote="clang"       revision="clang-16" />
 
 </manifest>
