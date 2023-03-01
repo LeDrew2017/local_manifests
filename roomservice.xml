@@ -28,7 +28,7 @@
     <!-- HyperX-Clang -->
     <project name="hyperx-clang"        path="prebuilts/clang/host/linux-x86/clang-hyperx-clang"        remote="clang"        revision="clang-16" />
     
-    <-- MindTheGapps -->
+    <!-- MindTheGapps -->
     <project name="vendor_gapps"                                path="vendor/gapps"                     remote="mtg"          revision="tau" />
 
 </manifest>
