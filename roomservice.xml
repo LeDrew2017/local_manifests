@@ -4,7 +4,6 @@
     <!--Remotes-->
     <remote name="source"          fetch="https://github.com/LeDrew2017"/>
     <remote name="clang"           fetch="https://gitlab.com/hydra-kernels"/>
-    <remote name="mtg"             fetch="https://gitlab.com/MindTheGapps"/>
 
     <!--Devices Trees-->
     <project name="android_device_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="banana-13" />
@@ -27,8 +26,5 @@
     
     <!-- HyperX-Clang -->
     <project name="hyperx-clang"        path="prebuilts/clang/host/linux-x86/clang-hyperx-clang"        remote="clang"        revision="clang-16" />
-    
-    <!-- MindTheGapps -->
-    <project name="vendor_gapps"                                path="vendor/gapps"                     remote="mtg"          revision="tau" />
 
 </manifest>
