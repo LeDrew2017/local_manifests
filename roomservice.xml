@@ -5,6 +5,7 @@
     <remote name="source"          fetch="https://github.com/awakened1712"/>
     <remote name="mtg"             fetch="https://gitlab.com/MindTheGapps"/>
     <remote name="rice"            fetch="https://github.com/ricedroidOSS"/>
+    <remote name="vendor"          fetch="https://github.com/LeDrew2017"/>
 
     <!--Devices Trees-->
     <project path="device/samsung/d2x" remote="github" name="crDroid-982X/android_device_samsung_d2x" revision="lineage-20" />
@@ -17,14 +18,7 @@
     <project path="device/samsung/exynos9820-common" remote="github" name="awakened1712/android_device_samsung_exynos9820-common" revision="android-13" />
 
     <!--Vendors Trees-->
-    <project name="android_vendor_samsung_beyond0lte"           path="vendor/samsung/beyond0lte"        remote="source"         revision="android-13"   clone-depth="1" />
-    <project name="android_vendor_samsung_beyond1lte"           path="vendor/samsung/beyond1lte"        remote="source"         revision="android-13"   clone-depth="1" />
-    <project name="android_vendor_samsung_beyond2lte"           path="vendor/samsung/beyond2lte"        remote="source"         revision="android-13"   clone-depth="1" />
-    <project name="android_vendor_samsung_beyondx"              path="vendor/samsung/beyondx"           remote="source"         revision="android-13"   clone-depth="1" />
-    <project name="android_vendor_samsung_d1"                   path="vendor/samsung/d1"                remote="source"         revision="android-13"   clone-depth="1" />
-    <project name="android_vendor_samsung_d2s"                  path="vendor/samsung/d2s"               remote="source"         revision="android-13"   clone-depth="1" />
-    <project name="android_vendor_samsung_d2x"                  path="vendor/samsung/d2x"               remote="source"         revision="android-13"   clone-depth="1" />
-    <project name="android_vendor_samsung_exynos9820-common"    path="vendor/samsung/exynos9820-common" remote="source"         revision="android-13"   clone-depth="1" />
+    <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="vendor"       revision="lineage-20" />
 
     <!--Kernel Tree-->
     <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"         revision="android-13" />
