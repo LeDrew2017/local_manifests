@@ -4,7 +4,7 @@
     <!--Remotes-->
     <remote name="source"          fetch="https://github.com/LeDrew2017"/>
     <remote name="clang"           fetch="https://gitlab.com/hydra-kernels"/>
-
+    <remote name="common"          fetch="https://github.com/travarilo"/>
     <!--Devices Trees-->
     <project name="android_device_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="banana-13" />
     <project name="android_device_beyond1lte"           path="device/samsung/beyond1lte"        remote="source"         revision="banana-13" />
@@ -13,7 +13,7 @@
     <project name="android_device_d1"                   path="device/samsung/d1"                remote="source"         revision="banana-13" />
     <project name="android_device_d2s"                  path="device/samsung/d2s"               remote="source"         revision="banana-13" />
     <project name="android_device_d2x"                  path="device/samsung/d2x"               remote="source"         revision="banana-13" />
-    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"       revision="banana-13" />
+    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="common"       revision="13" />
 
     <!--Vendors Trees-->
     <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="source"       revision="lineage-20" />
