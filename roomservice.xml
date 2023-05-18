@@ -8,7 +8,7 @@
     <remote name="hardware"         fetch="https://github.com/bananadroid"/>
 	
     <!--Devices Trees-->
-    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="common"  revision="android-13" />
+    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="common"  revision="13" />
     <project name="android_device_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"          revision="cherish-13" />
     <project name="android_device_beyond1lte"           path="device/samsung/beyond1lte"        remote="source"          revision="cherish-13" />
     <project name="android_device_beyond2lte"           path="device/samsung/beyond2lte"        remote="source"          revision="cherish-13" />
@@ -21,7 +21,7 @@
     <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="source"          revision="lineage-20" />
 
     <!--Kernel Tree-->
-    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source2"         revision="android-13" />
+    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source2"         revision="android-13-2" />
 
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source2"         revision="android-13" />
