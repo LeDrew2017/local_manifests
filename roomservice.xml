@@ -6,6 +6,7 @@
     <remote name="clang"           fetch="https://gitlab.com/hydra-kernels"/>
     <remote name="source2"         fetch="https://github.com/awakened1712"/>
     <remote name="source"          fetch="https://github.com/FreeRunner4ever"/>
+    <remote name="hardware"          fetch="https://github.com/bananadroid"/>
     
     <!--Devices Trees-->
     <project name="android_device_samsung_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="bootleg" />
@@ -25,6 +26,7 @@
 
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source3"       revision="android-13" />
+    <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="hardware"       revision="13" />
     
     <!-- HyperX-Clang -->
     <project name="hyperx-clang"        path="prebuilts/clang/host/linux-x86/clang-hyper-x-clang"        remote="clang"        revision="clang-16" />
