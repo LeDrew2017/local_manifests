@@ -7,6 +7,7 @@
     <remote name="source2"         fetch="https://github.com/awakened1712"/>
     <remote name="source"          fetch="https://github.com/FreeRunner4ever"/>
     <remote name="hardware"        fetch="https://github.com/bananadroid"/>
+    <remote name="sepolicy"        fetch="https://github.com/crdroidandroid"/>
     
     <!--Devices Trees-->
     <project name="android_device_samsung_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="arrow" />
@@ -26,7 +27,8 @@
 
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source3"       revision="android-13" />
-    <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="hardware"       revision="13" />
+    <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="hardware"      revision="13" />
+    <project name="android_device_crdroid_sepolicy"             path="device/arrow/sepolicy"            remote="sepolicy"      revision="13.0" />
     
     <!-- HyperX-Clang -->
     <project name="hyperx-clang"        path="prebuilts/clang/host/linux-x86/clang-hyper-x-clang"        remote="clang"        revision="clang-16" />
