@@ -3,8 +3,9 @@
 
     <!--Remotes-->
     <remote name="source"          fetch="https://github.com/LeDrew2017"/>
-    <remote name="banana"          fetch="https://github.com/FreeRunner4ever"/>
-    <remote name="kernel"          fetch="https://github.com/ExpressLuke"/>
+    <remote name="kernel"          fetch="https://github.com/awakened1712"/>
+    <remote name="common"           fetch="https://github.com/travarilo"/>
+    <remote name="hardware"         fetch="https://github.com/bananadroid"/>
 
     <!--Devices Trees-->
     <project name="android_device_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="omni" />
@@ -14,15 +15,16 @@
     <project name="android_device_d1"                   path="device/samsung/d1"                remote="source"         revision="omni" />
     <project name="android_device_d2s"                  path="device/samsung/d2s"               remote="source"         revision="omni" />
     <project name="android_device_d2x"                  path="device/samsung/d2x"               remote="source"         revision="omni" />
-    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"       revision="omni" />
+    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="common" revision="13" />
 
     <!--Vendors Trees-->
     <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="source"       revision="lineage-20" />
 
     <!--Kernel Tree-->
-    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="kernel"       revision="13.0" />
+    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="kernel"       revision="android-13-2" />
 
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"       revision="android-13" />
-
+    <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="hardware"        revision="13" />
+    
 </manifest>
