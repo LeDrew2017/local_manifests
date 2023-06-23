@@ -27,6 +27,9 @@
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source3"       revision="android-13" />
     
     <!-- HyperX-Clang -->
-    <project name="hyperx-clang"        path="prebuilts/clang/host/linux-x86/clang-hyper-x-clang"        remote="clang"        revision="clang-16" />
+    <project name="hyperx-clang"                                path="prebuilts/clang/host/linux-x86/clang-hyper-x-clang"      remote="clang"        revision="clang-16" />
+    
+    <remove-project name="bananadroid/android_build_soong" />
+    <project name="android_build_soong"                         path="build/soong"                      remote="source3"       revision="13" />
 
 </manifest>
