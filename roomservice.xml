@@ -4,6 +4,7 @@
     <!--Remotes-->
     <remote name="source"            fetch="https://github.com/Exy2100-LOS"/>
     <remote name="dependencies"      fetch="https://github.com/LineageOS"/>
+    <remote name="clang"             fetch="https://github.com/afaneh-toolchain"/>
 
     <!--Devices Trees-->
     <project name="android_device_samsung_o1s"                            path="device/samsung/o1s"        remote="source"                          revision="lineage-20" />
@@ -16,10 +17,11 @@
     <project name="android_vendor_samsung_universal2100-common"           path="vendor/samsung/universal2100-common "       remote="source"         revision="lineage-20" />
 
     <!--Kernel Tree-->
-    <project name="android_kernel_samsung_universal2100 "                 path="kernel/samsung/universal2100"               remote="source"         revision="EWAF" />
+    <project name="android_kernel_samsung_universal2100 "                 path="kernel/samsung/universal2100"               remote="source"         revision="lineage-20" />
 
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"                  path="device/samsung_slsi/sepolicy"               remote="dependencies"   revision="lineage-20" />
     <project name="android_hardware_samsung"                              path="hardware/samsung"                           remote="dependencies"   revision="lineage-20" />
+    <project name="prebuilts_clang_host_linux-x86_clang-r383902"          path="prebuilts/clang/host/linux-x86/clang-r383902" remote="clang"   revision="lineage-20" />
 
 </manifest>
