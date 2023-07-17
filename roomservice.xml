@@ -5,6 +5,7 @@
     <remote name="source"          fetch="https://github.com/awakened1712"/>
     <remote name="vendor"          fetch="https://github.com/LeDrew2017"/>
     <remote name="kernel"          fetch="https://github.com/FreeRunner4ever"/>
+    <remote name="lineage2"        fetch="https://github.com/LineageOS"/>
 
     <!--Devices Trees-->
     <project path="device/samsung/d2x" remote="github" name="crDroid-982X/android_device_samsung_d2x" revision="lineage-20" />
@@ -23,8 +24,8 @@
     <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="kernel"         revision="android-13-2" />
 
     <!-- Dependencies -->
-    <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"         revision="android-13" />
-    <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"         revision="android-13" />
+    <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="lineage2"         revision="lineage-20" />
+    <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="lineage2"         revision="lineage-20" />
     
     <!-- Replace crDroidOTA with unofficial one -->
     <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
