@@ -2,32 +2,42 @@
 <manifest>
 
     <!--Remotes-->
-    <remote name="source2"          fetch="https://github.com/awakened1712"/>
-    <remote name="source"           fetch="https://github.com/FreeRunner4ever"/>
-    <remote name="hardware"         fetch="https://github.com/bananadroid"/>
-    <remote name="clang"            fetch="https://gitlab.com/hydra-kernels"/>
+    <remote name="source"           fetch="https://github.com/CherishOS-exynos9820"/>   
+    <remote name="kernel"           fetch="https://github.com/Mgm2023"/>
+    <remote name="vendor"           fetch="https://github.com/TheMuppets"/>
+    
 	
     <!--Devices Trees-->
-    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"          revision="13" />
-    <project name="android_device_samsung_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"          revision="cherish-13" />
-    <project name="android_device_samsung_beyond1lte"           path="device/samsung/beyond1lte"        remote="source"          revision="cherish-13" />
-    <project name="android_device_samsung_beyond2lte"           path="device/samsung/beyond2lte"        remote="source"          revision="cherish-13" />
-    <project name="android_device_samsung_beyondx"              path="device/samsung/beyondx"           remote="source"          revision="cherish-13" />
-    <project name="android_device_samsung_d1"                   path="device/samsung/d1"                remote="source"          revision="cherish-13" />
-    <project name="android_device_samsung_d2s"                  path="device/samsung/d2s"               remote="source"          revision="cherish-13" />
-    <project name="android_device_samsung_d2x"                  path="device/samsung/d2x"               remote="source"          revision="cherish-13" />
+    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"          revision="cherish" />
+    <project name="android_device_samsung_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"          revision="cherish" />
+    <project name="android_device_samsung_beyond1lte"           path="device/samsung/beyond1lte"        remote="source"          revision="cherish" />
+    <project name="android_device_samsung_beyond2lte"           path="device/samsung/beyond2lte"        remote="source"          revision="cherish" />
+    <project name="android_device_samsung_beyondx"              path="device/samsung/beyondx"           remote="source"          revision="cherish" />
+    <project name="android_device_samsung_d1"                   path="device/samsung/d1"                remote="source"          revision="cherish" />
+    <project name="android_device_samsung_d2s"                  path="device/samsung/d2s"               remote="source"          revision="cherish" />
+    <project name="android_device_samsung_d2x"                  path="device/samsung/d2x"               remote="source"          revision="cherish" />
 
     <!--Vendors Trees-->
-    <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="source"          revision="lineage-20" />
-
+    <project name="proprietary_vendor_samsung_beyond0lte"       path="vendor/samsung/beyond0lte"        remote="vendor"          revision="lineage-20" />
+    <project name="proprietary_vendor_samsung_beyond1lte"       path="vendor/samsung/beyond1lte"        remote="vendor"          revision="lineage-20" />
+    <project name="proprietary_vendor_samsung_beyond2lte"       path="vendor/samsung/beyond2lte"        remote="vendor"          revision="lineage-20" />
+    <project name="proprietary_vendor_samsung_beyondx"          path="vendor/samsung/beyondx"           remote="vendor"          revision="lineage-20" />
+    <project name="proprietary_vendor_samsung_d1"               path="vendor/samsung/d1"                remote="vendor"          revision="lineage-20" />
+    <project name="proprietary_vendor_samsung_d2s"              path="vendor/samsung/d2s"               remote="vendor"          revision="lineage-20" />
+    <project name="proprietary_vendor_samsung_d2x"              path="vendor/samsung/d2x"               remote="vendor"          revision="lineage-20" />
+    
+    <!--Linaro BSP dependencies-->
+    <project name="android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics"           remote="source"          revision="lineage-20" />
+    <project name="android_hardware_samsung_slsi-linaro_config"   path="hardware/samsung_slsi-linaro/config"             remote="source"          revision="lineage-20" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos"   path="hardware/samsung_slsi-linaro/exynos"             remote="source"          revision="lineage-20" />
+    <project name="android_hardware_samsung_slsi-linaro_openmax"  path="hardware/samsung_slsi-linaro/openmax"            remote="source"          revision="lineage-20" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos5"  path="hardware/samsung_slsi-linaro/exynos5"            remote="source"          revision="lineage-20" />
+    
     <!--Kernel Tree-->
-    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source2"         revision="android-13-2" />
+    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="kernel"          revision="android-13-upstream" />
 
     <!-- Dependencies -->
-    <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source2"         revision="android-13" />
-    <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="hardware"        revision="13" />
-    
-    <!-- HyperX-Clang -->
-    <project name="hyperx-clang"                                path="prebuilts/clang/host/linux-x86/clang-hyper-x-clang"      remote="clang"        revision="clang-16" />
+    <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"          revision="lineage-20" />
+    <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"          revision="13" />
 
 </manifest>
